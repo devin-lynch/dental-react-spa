@@ -8,9 +8,9 @@ export default function Service(props) {
     // console.log('ONE SERVICE', service)
     return (
         <div>
-            <h3>Name</h3>
-            <p>Price</p>
-            <p>Description</p>
+            <h3>{service.name}</h3>
+            <p>${service.price}</p>
+            <p>{service.description}</p>
         </div>
     )
 }
